@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marcenaria Profissional - Trabalho Acadêmico</title>
+    <style>
+.img_contato {
+        width: 600px;
+        height: auto;
+        display: block;
+        margin: 20px auto;
+        border-radius: 8px;
+    }
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; }
+        header { background: #f77904; color: white; padding: 20px; text-align: center; }
+        .logo-uniube { max-width: 150px; margin-bottom: 10px; }
+        nav { background: #0631f1; padding: 10px; }
+        nav ul { list-style: none; padding: 0; display: flex; flex-wrap: wrap; justify-content: center; }
+        nav ul li { margin: 5px 15px; }
+        nav ul li a { color: white; text-decoration: none; font-weight: bold; }
+        nav ul li a:hover { text-decoration: underline; }
+        main { padding: 20px; max-width: 800px; margin: auto; min-height: 400px; }
+        footer { background: #212121; color: white; text-align: center; padding: 15px; position: relative; bottom: 0; width: 100%; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="https://uniube.br/img/landing/logo_azul.svg" alt="Logotipo Uniube" class="logo-uniube">
+        <h1>Zirondi Planejados </h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="historia.html">História</a></li>
+            <li><a href="ferramentas.html">Ferramentas</a></li>
+            <li><a href="madeiras.html">Tipo de Madeira</a></li>
+            <li><a href="seguranca.html">Segurança (EPI)</a></li>
+            <li><a href="acabamentos.html">Acabamentos</a></li>
+            <li><a href="criatividade.html">Criatividade</a></li>
+            <li><a href="orcamentos.html">Orçamentos</a></li>
+            <li><a href="sustentabilidade.html">Sustentabilidade</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+        
+    </nav>
+
+    <main>
+<section id="contato" style="max-width: 600px; margin: auto; padding: 20px;">
+    <h2>Entre em Contato</h2>
+    <p>Preencha os campos abaixo para solicitar um orçamento ou tirar dúvidas:</p>
+
+    <form action="#" method="post" style="display: flex; flex-direction: column; gap: 15px;">
+        
+        <div>
+            <label for="nome" style="display: block; font-weight: bold;">Nome Completo:</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required 
+                   style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;">
+        </div>
+
+        <div>
+            <label for="email" style="display: block; font-weight: bold;">E-mail:</label>
+            <input type="email" id="email" name="email" placeholder="seu-email@exemplo.com" required 
+                   style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;">
+        </div>
+
+        <div>
+            <label for="telefone" style="display: block; font-weight: bold;">WhatsApp / Telefone:</label>
+            <input type="tel" id="telefone" name="telefone" placeholder="(34) 99999-9999" 
+                   style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;">
+        </div>
+
+        <div>
+            <label for="assunto" style="display: block; font-weight: bold;">Assunto:</label>
+            <select id="assunto" name="assunto" style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;">
+                <option value="orcamento">Solicitar Orçamento</option>
+                <option value="duvida">Dúvidas Técnicas</option>
+                <option value="parceria">Parcerias</option>
+                <option value="outros">Outros</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="mensagem" style="display: block; font-weight: bold;">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="5" placeholder="Descreva brevemente seu projeto (ex: Cozinha planejada, guarda-roupas...)" 
+                      style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;"></textarea>
+        </div>
+
+        <button type="submit" style="background-color: #f77904; color: white; padding: 10px; border: none; border-radius: 4px; font-weight: bold; cursor: pointer; font-size: 16px;">
+            Enviar Mensagem
+        </button>
+
+    </form>
+</section>
+    
+    <img src=".//imagens/img_contato.png" class="img_contato">
+    
+
+  </main>
+
+    <footer>
+        <p>Desenvolvido por: <strong>[NATAN LUCAS ZIRONDI]</strong></p>
+        <p>RA: <strong>[5174001]</strong></p>
+        <p>&copy; 2026 - Curso de Análise e Desenvolvimento de Sistemas - Uniube Uberaba</p>
+    </footer>
+
+</body>
+</html>
