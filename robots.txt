@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://Zirondii.github.io/marcenaria/sitemap.xml
